@@ -20,7 +20,7 @@ A Python script that downloads all episodes from a podcast RSS feed, extracts me
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/podcast-downloader.git
+git clone https://github.com/crweiner/podcast-downloader.git
 cd podcast-downloader
 
 pip3 install requests
