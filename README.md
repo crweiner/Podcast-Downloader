@@ -14,20 +14,54 @@ A Python script that downloads all episodes from a podcast RSS feed, extracts me
 
 ## Requirements
 
-- Python 3.6+
-- `requests` library
+- Python 3.6 or higher
+- pip (usually comes with Python)
 
 ## Installation
 
+### Prerequisites
+- Python 3.6 or higher
+- pip (usually comes with Python)
+
+### Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/crweiner/podcast-downloader.git
+   cd podcast-downloader
+   ```
+
+2. **Create a virtual environment:**
+   
+   On macOS/Linux:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+   
+   On Windows:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Deactivating the Virtual Environment
+
+When you're done, deactivate the virtual environment:
 ```bash
-git clone https://github.com/crweiner/podcast-downloader.git
-cd podcast-downloader
-
-pip3 install requests
-# or
-pip3 install -r requirements.txt
-
+deactivate
 ```
+
+### Troubleshooting
+
+- **Python version issues:** Ensure you're using Python 3.6+ by running `python3 --version` (or `python --version` on Windows)
+- **Permission errors:** If you get permission errors, you may be installing globally. Always use a virtual environment.
+- **Import errors:** Make sure the virtual environment is activated (you should see `(venv)` in your terminal prompt)
 
 ## Usage:
 
