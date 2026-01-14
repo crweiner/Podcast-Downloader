@@ -12,15 +12,10 @@ A Python script that downloads all episodes from a podcast RSS feed, extracts me
 - Supports resuming interrupted downloads (skips existing files)
 - Configurable episode range
 
-## Requirements
-
-- Python 3.6 or higher
-- pip (usually comes with Python)
-
 ## Installation
 
 ### Prerequisites
-- Python 3.6 or higher
+- Python 3.7 or higher
 - pip (usually comes with Python)
 
 ### Setup
@@ -59,7 +54,7 @@ deactivate
 
 ### Troubleshooting
 
-- **Python version issues:** Ensure you're using Python 3.6+ by running `python3 --version` (or `python --version` on Windows)
+- **Python version issues:** Ensure you're using Python 3.7+ by running `python3 --version` (or `python --version` on Windows)
 - **Permission errors:** If you get permission errors, you may be installing globally. Always use a virtual environment.
 - **Import errors:** Make sure the virtual environment is activated (you should see `(venv)` in your terminal prompt)
 
