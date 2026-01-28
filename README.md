@@ -23,7 +23,7 @@ A Python script that downloads all episodes from a podcast RSS feed, extracts me
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/a8cteam51/Podcast-Downloader.git
-   cd podcast-downloader
+   cd Podcast-Downloader
    ```
 
 2. **Create a virtual environment:**
@@ -95,7 +95,7 @@ Podcast Name/
 └── ...
 ```
 
-## Metatata captured:
+## Metadata captured:
 
 Show-level: Title, author, description, categories, artwork, language, copyright, owner info, keywords
 
